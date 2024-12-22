@@ -1,16 +1,39 @@
 .homepage#background {
     background-color: bisque;
+    font-family: ;
 }
-.homepage #title {
+.homepage .title {
     text-align: center;
     font-style: oblique;
 }
 
-#recipe-list {
+.homepage .list {
     font-size: large;
+    text-align: center;
+    list-style: none;
 }
 
-.food.body {
+a:link, a:visited {
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 120px;
+    height: 60px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    border-radius: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:hover {
+    background-color: salmon;
+    color: white;
+}
+
+.food .body {
     background-color: darksalmon;
 }
 
